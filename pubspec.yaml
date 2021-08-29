@@ -23,6 +23,7 @@ environment:
 
 dependencies:
   animated_card: ^2.0.0
+  http:
 
   flutter:
     sdk: flutter

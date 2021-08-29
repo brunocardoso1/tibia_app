@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Seja bem vindo(a) ao Tibia day!"),
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.orange,
         elevation: 0,
       ),
       drawer: BuildDrawer(),
@@ -24,9 +24,9 @@ class HomePage extends StatelessWidget {
           width: double.maxFinite,
           decoration: BoxDecoration(
             gradient: LinearGradient(begin: Alignment.topRight, colors: [
-              Colors.purple,
-              Colors.deepPurple,
-              Colors.deepPurpleAccent,
+              Colors.orange,
+              Colors.deepOrangeAccent,
+              Colors.red,
             ]),
           ),
           child: SingleChildScrollView(
@@ -37,10 +37,9 @@ class HomePage extends StatelessWidget {
                   DailyBoosted(),
                 ],
               ),
-              ConstruirCard("Deepzera"),
-              ConstruirCard("Brickwall"),
-              ConstruirCard("Bafo de Pepino"),
-              ConstruirCard("Neutro Lindinho"),
+              ConstruirCard("Deepzera", "348", "Yonabra","https://www.tibiawiki.com.br/images/8/83/Outfit_Barbarian_Male_Addon_3.gif"),
+              ConstruirCard("Deepzord", "390", "Yonabra","https://www.tibiawiki.com.br/images/7/7c/Outfit_Mercenary_Male_Addon_2.gif"),
+              ConstruirCard("Bafo de Pepino", "100", "Lutabra", "https://www.tibiawiki.com.br/images/d/df/Outfit_Assassin_Male_Addon_3.gif"),
             ]),
           )),
     );

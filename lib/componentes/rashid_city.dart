@@ -25,7 +25,7 @@ Widget RashidBuilder() {
                 borderRadius: BorderRadius.circular(50),
                 color: Colors.white,
                 image: DecorationImage(
-                    image: AssetImage(AppImages.floor), fit: BoxFit.fill)),
+                    image: AssetImage(AppImages.monday), fit: BoxFit.fill)),
             child: (Image.asset(
               AppImages.Rashid,
               scale: 0.8,
